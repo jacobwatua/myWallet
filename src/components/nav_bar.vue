@@ -1,10 +1,5 @@
 <template>
   <h1>Test Render Deployment</h1>
-  <div class="NavBar">
-    <ul v-for="(navItem, i) in navItems" :key="i">
-      <li><a href="#">{{ navItem }}</a></li>
-    </ul>
-  </div>
 </template>
 
 <script>
