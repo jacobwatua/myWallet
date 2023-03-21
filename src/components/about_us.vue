@@ -33,37 +33,7 @@ export default {
 }
 </script>
 
-<style>
-  .about-us {
-    margin-top:  20px;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-auto-rows: 40px 1fr;
-  }
-
-  .about-header{
-    grid-area: 1/1/2/2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    color: white;
-    font-weight: bolder;
-  }
-  .description {
-    color: lightcyan;
-    grid-area: 1/2/3/3;
-    box-sizing: border-box;
-    padding: 20px;
-    padding-top: 40px;
-    text-align: justify;
-  }
-  .logo img {
-    width: 100%;
-    height: 100%;
-    border-top-right-radius: 8px;
-  }
-</style>
+<style></style>
 
 
 

@@ -3,7 +3,69 @@ body{
   margin: 0;
   box-sizing: border-box;
   font-size: 16px;
+}
+
+/*Mobile First */
+
+/*Header*/
+
+@media(max-width:540px) {
+  .NavBar ul {
+    width: auto;
+  }
+}
+
+
+/* END MOBILE FIRST DESIGNS */
+
+
+
+
+/*----------NEW SECTTION --------- */
+
+
+/*GENERAL (COMPUTER) SCREEN DESIGNS */
+
+.NavBar{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #ffffff;
+  height: 60px;
+  z-index: 1;
+}
+.NavBar ul{
+  list-style: none;
+  display: inline-flex;
+  margin: 0px auto;
+  width: 20%;
+  padding: 5px;
+}
+
+.NavBar ul li {
+  margin-left: 40px;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+}
+.NavBar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.NavBar ul li:hover {
   background-color: black;
+  color: white;
+}
+
+
+@media(min-width:1100px) {
+  .NavBar ul {
+    position: relative;
+    left: 100px;
+  }
 }
 
 
@@ -17,3 +79,108 @@ body{
   margin:  20px 0px;
   background-color: #038C73;
 }
+
+
+
+
+
+/* ------End of stylings for thr navbar ---- */
+
+
+/*style the banner */
+.content-card{
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  margin: 60px auto 0px auto;
+  background-image: url('./images/illustrations/comparison2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60vh;
+  background-color: #00bff3;
+  font-size: 1.1em;
+  color: black;
+  display: flex;
+}
+
+.box{
+  height: 100%;
+  width: 40%;
+  text-align: center;
+  background-color: black;
+  opacity: 0.2;
+}
+
+
+.content button {
+  display: grid;
+  margin: 10px auto;
+}
+
+
+.content-card .content {
+  width: 40%;
+  padding: 10px;
+  padding-top: 80px;
+  height: 60vh;
+  position: absolute;
+  top: 60px;
+  color: white;
+  font-weight: bold;
+}
+/*End of stylings for banners */
+
+/* END OF GENERAL DESIGNS */
+
+
+/*Mission vision styles */
+
+.vision-mission {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 30px;
+  font-size: 15px;
+  margin: 20px 0px;
+}
+
+.vision-mission div {
+padding: 20px;
+box-sizing: border-box;
+}
+
+.vision-mission div:hover {
+  background-color: lightblue;
+}
+
+
+
+/*End of style for mission vision */
+
+/*styles for about us */
+
+  .about-us {
+    margin-top:  20px;
+    display: grid;
+    grid-template-rows: 50px 40% 1fr;
+  }
+
+  .about-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bolder;
+  }
+  .description {
+    color: lightcyan;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: justify;
+  }
+  .logo img {
+    width: 70%;
+    height: 100%;
+    border-top-right-radius: 8px;
+    margin: 10px auto;
+  }
