@@ -98,6 +98,10 @@ body{
   padding-right: 20px;
 }
 
+.content-card .content .btn {
+  display: grid;
+  margin: 10px auto;
+}
 /*End of stylings for banners */
 
 /* END OF GENERAL DESIGNS */
