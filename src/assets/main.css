@@ -3,7 +3,6 @@ body{
   margin: 0;
   box-sizing: border-box;
   font-size: 16px;
-  background-color: lightgray;
 }
 
 /*Mobile First */
@@ -252,7 +251,7 @@ body{
 }
 
 
-@media(max-width: 400px){
+@media(max-width: 600px){
   .vision-mission {
     display: flex;
     flex-direction: column;
