@@ -1,5 +1,6 @@
 <template>
   <Navbar />
+  <Sidebar/>
   <Banner />
   <Vision />
   <About />
@@ -14,9 +15,11 @@ import Vision from './components/vision.vue';
 import About from './components/about_us.vue';
 import Calculators from './components/calculators.vue';
 import Footer from './components/footer.vue';
+import Sidebar from './components/sidebar.vue';
 export default {
   components : {
     Navbar,
+    Sidebar,
     Banner,
     Vision,
     About,
