@@ -58,7 +58,7 @@ body{
 
 
 .NavBar ul li:hover {
-  border-bottom: 1px solid blue;
+  border: 1px solid blue;
 }
 
 
@@ -69,43 +69,35 @@ body{
 
 
 /*style the banner */
-.content-card{
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-  margin: 60px auto 0px auto;
-  background-image: url('./images/illustrations/comparison2.png');
+.content-card {
+  background-image: url("./images/kpi.jpeg");
+  height: 100vh;
+  background-size:cover;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 60vh;
-  font-size: 1.1em;
-  color: black;
+  color: wheat;
+  margin-top: 60px;
   display: flex;
+  flex-direction: column;
 }
 
-.box{
+.box1 {
   width: 100%;
-  text-align: center;
-  background-color: black;
-  opacity: 0.2;
+  height: 100%;
+  background-color: blue;
+  opacity: 0.3;
 }
-
-
-.content button {
-  display: grid;
-  margin: 10px auto;
-}
-
 
 .content-card .content {
-  width: 40%;
-  padding: 10px;
-  padding-top: 80px;
-  height: 60vh;
-  position: absolute;
-  top: 60px;
   color: white;
-  font-weight: bold;
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
 /*End of stylings for banners */
 
 /* END OF GENERAL DESIGNS */
@@ -246,16 +238,6 @@ body{
     position: relative;
     left: 100px;
   }
-  .content-card .box {
-    width: 100%;
-  }
-
-  .content-card .content {
-    margin-left: 50%;
-    margin-right: 50%;
-    width: 50%;
-  }
-
 }
 
 
@@ -272,16 +254,6 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     color: white;
-  }
-
-  .box{
-    background-color: black;
-    width: 100%;
-    opacity: 0.5;
-  }
-
-  .content-card .content {
-    width: 100vw;
   }
 
   .top-footer{
