@@ -39,31 +39,5 @@ export default {
 }
 </script>
 
-<style>
-    .footer {
-        background-color: black;
-        color: white;
-        display: grid;
-        grid-template-rows: 90% 10%;
-        padding: 20px;
-        height: 50vh;
-    }
-    .top-footer{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr)
-    }
-
-    .bottom-footer {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
-    }
-    .bottom-footer p{
-        color: orange;
-    }
-    .links {
-        margin-bottom: 20px;
-    }
-</style>
+<style></style>
 

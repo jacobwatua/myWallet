@@ -3,9 +3,6 @@
     <div class="about-header">
       About Us
     </div>
-    <div class="logo">
-      <img src="../assets/images/background-blue.png" alt="company logo">
-    </div>
     <div class="description">
       <p>
           <strong>Who are we?</strong><br/>
@@ -22,7 +19,10 @@
           At myWallet, we are dedicated to providing the highest quality KPI-based rankings and to continuously improving 
           our platform to better serve our users. Thank you for visiting our site, and we hope you find our rankings helpful and informative.
       </p>
-      <button class="btn btn-success">View Our Team</button>
+    </div>
+
+    <div class="abt-btn">
+      <button class="btn btn-dark">View Our Team</button>
     </div>
   </div>
 </template>
