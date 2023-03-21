@@ -40,25 +40,4 @@ export default {
 }
 </script>
 
-<style>
-    .calculators {
-        background-color: #f6f7f8;
-        margin-top: -20px;
-        padding: 20px;
-        margin-bottom: 40px;
-    }
-
-    .calculators .rankers{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-auto-rows: minmax(200px, auto);
-        grid-gap: 10px;
-    }
-    .category {
-        background-color: #ffffff;
-        box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.2);
-        padding: 10px;
-        border-radius: 4px;
-    }
-
-</style>
+<style></style>

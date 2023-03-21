@@ -41,6 +41,7 @@ export default {
 
 <style>
     .footer {
+        background-color: black;
         color: white;
         display: grid;
         grid-template-rows: 90% 10%;

@@ -4,7 +4,7 @@
       About Us
     </div>
     <div class="logo">
-      <img src="../assets/images/logo.png" alt="">
+      <img src="../assets/images/background-blue.png" alt="company logo">
     </div>
     <div class="description">
       <p>
