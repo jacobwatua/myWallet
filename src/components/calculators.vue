@@ -4,12 +4,12 @@
         <div class="container rankers">
             <div class="container category" v-for="(category, i) in categories" :key="i">
                 <div class="top-bar">
-                    <p>Top 10 {{ category }}</p>
+                    <p class="text-center text-primary">Top 10 {{ category }}</p>
                 </div>
                 <div class="content">
-                    <p>{{ sliced_info(category_dict[category]) }}</p>
+                    <p>{{ category_dict[category]}}</p>
                     <!--Change this to open each indicidual category-->
-                    <p class="text-cente"><a href="#">Read More</a></p>
+                    <button class="btn btn-dark"><a href="#">Read More</a></button>
                 </div>
             </div>
         </div>
@@ -31,12 +31,6 @@ export default {
 
         }
     },
-
-    methods : {
-        sliced_info (n) {
-            return (n.slice(0, 80) +" ...");
-        },
-    }
 }
 </script>
 

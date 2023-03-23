@@ -10,6 +10,7 @@
             So come on in, explore our rankings, and discover the businesses that are leading the way!
           </p>
           <button class="btn btn-danger">Learn More</button>
+          <button class="btn btn-primary btn-lg join-btn">Join Us</button>
       </div>
     </div>
   </div>

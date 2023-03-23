@@ -1,7 +1,7 @@
 <template>
-    <div class="NavBar nav2" style="display : none;">
+    <div class="NavBar">
       <ul v-for="(navItem, i) in navItems" :key="i">
-        <li><a href="#">{{ navItem }}</a></li>
+        <li @mouseover="hover_nav()"><a href="#">{{ navItem }}</a></li>
       </ul>
     </div>
     <div class="nav2">
@@ -16,6 +16,11 @@ export default {
       navItems : ["About Us", "Our Team", "Calculators", "Contact Us"],
     }
   },
+  methods : {
+    hover_nav () {
+      document.getElementsByTagName("li")[1].style.color = "blue";
+    }
+  }
 }
 </script>
 
